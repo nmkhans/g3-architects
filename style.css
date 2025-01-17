@@ -11,3 +11,48 @@
   --paragraph-color: rgba(114, 114, 114, 1);
   --menu-color: rgba(66, 66, 66, 1);
 }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+/* Header area css */
+
+.header__area {
+  padding: 20px 0;
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo__area a {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--title-color);
+}
+
+.menu__area ul {
+  display: flex;
+  column-gap: 40px;
+}
+
+.menu__area ul li {
+  list-style: none;
+}
+
+.menu__area ul li a {
+  text-decoration: none;
+  font-size: 17px;
+  color: var(--menu-color);
+  font-weight: 500;
+}
