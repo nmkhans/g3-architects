@@ -97,24 +97,6 @@ img {
   margin-top: 30px;
 }
 
-/** responsive design css */
-
-/** Tablet device */
-@media screen and (min-width: 200px) and (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .banner__top {
-    width: 90%;
-  }
-
-  .banner__top h1 {
-    font-size: 40px;
-  }
-}
-
 /* Teams area css */
 
 .teams__area {
@@ -159,6 +141,95 @@ img {
   color: var(--paragraph-color);
   line-height: 26px;
   margin-bottom: 20px;
+}
+
+/* Feature area css */
+
+.feature__area {
+  padding: 50px 0;
+}
+
+.feature__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature__left {
+  width: 47%;
+}
+
+.feature__right {
+  width: 45%;
+}
+
+.feature__left h2 {
+  font-size: 35px;
+  font-weight: 700;
+  color: var(--title-color);
+  margin-bottom: 20px;
+  border-left: 4px solid var(--primary-color);
+  padding-left: 20px;
+}
+
+.feature__left p {
+  font-size: 16px;
+  color: var(--paragraph-color);
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+.feature__card {
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, .06);
+  margin-bottom: 20px;
+}
+
+.feature__card h3 {
+  font-size: 18px;
+  color: var(--title-color);
+  margin-bottom: 10px;
+}
+
+.feature__card p {
+  margin-bottom: 0;
+}
+
+.feature__img {
+  position: relative;
+}
+
+.feature__img__box {
+  background-color: var(--primary-color);
+  display: inline-block;
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: -5%;
+  left: -10%;
+}
+
+.feature__img__box h4 {
+  font-size: 40px;
+}
+/** responsive design css */
+
+/** Tablet device */
+@media screen and (min-width: 200px) and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .banner__top {
+    width: 90%;
+  }
+
+  .banner__top h1 {
+    font-size: 40px;
+  }
 }
 
 /* Mobile device  */
